@@ -1,0 +1,33 @@
+div {
+    height: 150px;
+    width: 150px;
+    margin: 10px auto;
+}
+
+#pierwszy {
+    background-color: red;
+    transition: width 2s linear;
+}
+
+#drugi {
+    background-color: blue;
+    transition: height 2s linear;
+}
+
+#trzeci {
+    background-color: green;
+    transition: all 2s linear;
+}
+
+#pierwszy:hover  {
+     width: 300px;
+}
+
+#drugi:hover {
+    height: 300px;
+}
+
+#trzeci:hover {
+    width: 300px;
+    height: 300px;
+}
