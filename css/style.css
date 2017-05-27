@@ -33,9 +33,11 @@ img {
     float:left;
 }
 
+/*
 p:nth-child(3) {
     clear: both;
 }
+*/
 
 #kot {
     height: 100px;
@@ -47,4 +49,40 @@ p:nth-child(3) {
 #kot:hover {
     height: 200px;
     width: 200px;
+}
+
+#background {
+    height: 50vh;
+    background-color: aquamarine;
+    background-image: url(http://www.mobilne-tapety.pl/pobierz/kot-na-trawie-128x128.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#overflow p {
+    width: 25%;
+    float: left;
+    height: 100px;
+}
+
+#overflow p:nth-child(even) {
+    background-color: aquamarine;    
+}
+
+#overflow p:nth-child(odd) {
+    background-color: antiquewhite;
+}
+
+#overflow p:nth-child(2) {
+    overflow: scroll;
+}
+
+#overflow p:nth-child(1) {
+    overflow: hidden;
+}
+
+#overflow p:nth-child(3) {
+    overflow: auto;
 }
